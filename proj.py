@@ -26,6 +26,3 @@ elif str(inp)==str(otp) :
 	print("timed out!")
 else:
 	print("Incorrect!")
-
-
-#Your new Phone Number is +12035997741
