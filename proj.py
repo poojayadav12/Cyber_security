@@ -11,7 +11,7 @@ otp = random.randint(1000, 9999)
 print(otp)
 
 message = client.messages.create(
-         body='hi '+str(otp),
+         body='your otp is: '+str(otp),
          from_='number',
          to='num_to_send'
      )
