@@ -230,6 +230,15 @@ body a:hover {
 body {
 	font-family: 'Mukta', sans-serif;
 }
+
+#otp{
+     background: url(../images/bg3.jpg) no-repeat center;
+    background-size: cover;
+}
+#welcome{
+    background: url(../images/bg4.png) no-repeat center;
+    background-size: cover;
+}
 .main {
     background: url(../images/bgimg.jpg) no-repeat center;
     background-size: cover;
@@ -781,4 +790,58 @@ input.invalid {
     color:#ffdddd;;
   /*background-color: #ffdddd;*/
 }
+
+
+.heading{
+    color:white;
+    position: absolute;
+  left: 0;
+ 
+  width: 100%;
+  text-align: center;
+  font-size: 50px;
+  font-weight: bold;
+
+}
+
+.container {
+  position: relative;
+}
+
+.pp{
+     position: absolute;
+  left: 0;
+  right:0;
+  margin-top: 100px;
+  margin-left:40%;
+  margin-right:40%;
+  text-align: center;
+  font-size: 25px;
+  font-weight: bold;
+  background-color: #4CAF50;
+  color:white;
+  padding:10px;
+  align-content: center;
+}
+
+.pp:hover{
+    color:black;
+    
+}
+
+
+.sot1{
+  color:white;
+  font-size: 2.5rem;
+  font-weight: bold;
+  margin-bottom: 30px;
+}
+
+.sot{
+  color:white;
+  font-size: 1.5rem;
+  font-weight: bold;
+  margin-bottom:20px;
+}
+
 /* -- //Responsive code -- */
